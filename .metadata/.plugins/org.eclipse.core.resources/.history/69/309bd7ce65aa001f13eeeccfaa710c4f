@@ -1,0 +1,26 @@
+package com.demo.servlete;
+
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+
+import javax.swing.text.DateFormatter;
+
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+public class addProductServlet extends HttpServlet {
+	
+	public void doGet(HttpServletRequest req,HttpServletResponse res) {
+		   int pid=Integer.parseInt(req.getParameter("pid"));
+		   String pname=req.getParameter("pname");
+		   int qty=Integer.parseInt(req.getParameter("qty"));
+		   String dt=req.getParameter("date");
+		  
+		LocalDate ldt=LocalDate.parse(dt,DateTimeFormatter.ofPattern("yyyy-MM-dd"));
+		int cid=Integer.parseInt(req.getParameter("cid"));
+		
+		
+	}
+
+}

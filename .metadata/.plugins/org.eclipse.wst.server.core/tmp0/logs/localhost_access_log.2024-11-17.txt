@@ -1,0 +1,16 @@
+127.0.0.1 - - [17/Nov/2024:10:23:21 +0530] "GET / HTTP/1.1" 404 752
+127.0.0.1 - - [17/Nov/2024:11:20:40 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [17/Nov/2024:11:20:40 +0530] "GET /MyTestServlate/index.html HTTP/1.1" 200 253
+0:0:0:0:0:0:0:1 - - [17/Nov/2024:11:20:41 +0530] "GET /favicon.ico HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [17/Nov/2024:11:20:43 +0530] "GET /MyTestServlate/login.html HTTP/1.1" 200 396
+0:0:0:0:0:0:0:1 - - [17/Nov/2024:11:20:54 +0530] "POST /MyTestServlate/validatedata HTTP/1.1" 500 3440
+0:0:0:0:0:0:0:1 - - [17/Nov/2024:11:21:01 +0530] "POST /MyTestServlate/validatedata HTTP/1.1" 404 683
+0:0:0:0:0:0:0:1 - - [17/Nov/2024:11:21:06 +0530] "GET /MyTestServlate/helloworld HTTP/1.1" 500 3446
+0:0:0:0:0:0:0:1 - - [17/Nov/2024:11:21:11 +0530] "GET /MyTestServlate/helloworld HTTP/1.1" 404 683
+127.0.0.1 - - [17/Nov/2024:11:38:19 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [17/Nov/2024:11:38:19 +0530] "GET /MyTestServlate/index.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [17/Nov/2024:11:38:22 +0530] "GET /MyTestServlate/helloworld HTTP/1.1" 500 3446
+127.0.0.1 - - [17/Nov/2024:11:39:40 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [17/Nov/2024:11:39:42 +0530] "GET /MyTestServlate/helloworld HTTP/1.1" 200 67
+0:0:0:0:0:0:0:1 - - [17/Nov/2024:11:39:51 +0530] "GET /MyTestServlate/login.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [17/Nov/2024:11:40:01 +0530] "POST /MyTestServlate/validatedata HTTP/1.1" 200 30

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+       <form method="post" action="register" >
+        First Name : <input type="text" name="fname" id="fnm"><br>
+ Last Name : <input type="text" name="lname" id="lnm"><br>
+ user Name : <input type="text" name="uname" id="unm"><br>
+ Password : <input type="password" name="passwd" id="pnm"><br>
+ Gender : <input type="radio" name="gender" id="male" value="male"><label for="male">Male</label>
+ <input type="radio" name="gender" id="female" value="female"><label for="female">Female</label><br>
+       
+       </form>
+       
+</body>
+</html>

@@ -1,0 +1,30 @@
+package com.demo.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+import com.demo.beans.MyUser;
+
+public class LoginDaoImpl implements LoginDao {
+	
+	static Connection conn;
+	static PreparedStatement selUser;
+	static {
+		
+		try {
+			conn=DBUtil.getMyConnection();
+			selUser=conn.prepareStatement("select uname,password,role from user where uname=? and password=?");
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	@Override
+	public MyUser authenticateUSer(String uname, String passwd) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

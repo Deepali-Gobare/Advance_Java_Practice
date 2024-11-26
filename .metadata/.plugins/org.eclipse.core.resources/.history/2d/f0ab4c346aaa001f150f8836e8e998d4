@@ -1,0 +1,9 @@
+package com.demo.servlete;
+
+import jakarta.servlet.http.HttpServlet;
+
+public class DeleteServlet extends HttpServlet{
+	
+	
+
+}

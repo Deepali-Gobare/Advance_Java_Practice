@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.demo.dao.LoginDao"/>
+    <fullyQualifiedTypeName name="com.demo.dao.LoginDaoImpl"/>
+    <fullyQualifiedTypeName name="com.demo.services.LoginService"/>
+    <fullyQualifiedTypeName name="com.demo.services.LoginServicesImpl"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="com.demo.beans.Person"/>
+    <fullyQualifiedTypeName name="com.demo.beans.MyUser"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.demo.dao.ProductDao"/>
+    <fullyQualifiedTypeName name="com.demo.dao.ProductDaoImpl"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.http.HttpServlet"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.http.HttpServletRequest"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.http.HttpServletResponse"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
+    <fullyQualifiedTypeName name="com.demo.beans.Product"/>
+    <fullyQualifiedTypeName name="com.demo.services.ProductServices"/>
+    <fullyQualifiedTypeName name="com.demo.services.ProductServicesImpl"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.RequestDispatcher"/>
+</qualifiedTypeNameHistroy>
