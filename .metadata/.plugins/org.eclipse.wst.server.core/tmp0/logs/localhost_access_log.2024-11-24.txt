@@ -59,3 +59,8 @@
 0:0:0:0:0:0:0:1 - - [24/Nov/2024:20:30:32 +0530] "POST /MyTestServlate/validatedata HTTP/1.1" 200 1134
 0:0:0:0:0:0:0:1 - - [24/Nov/2024:20:30:34 +0530] "GET /MyTestServlate/editprod?pid=5 HTTP/1.1" 200 571
 0:0:0:0:0:0:0:1 - - [24/Nov/2024:20:31:05 +0530] "GET /MyTestServlate/updateProd?pid=5&pname=carrot&qty=111&price=&date=01-02-2025&cid=104&btn=update HTTP/1.1" 500 3464
+127.0.0.1 - - [24/Nov/2024:20:32:57 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [24/Nov/2024:20:33:06 +0530] "POST /MyTestServlate/validatedata HTTP/1.1" 200 1134
+0:0:0:0:0:0:0:1 - - [24/Nov/2024:20:33:09 +0530] "GET /MyTestServlate/editprod?pid=5 HTTP/1.1" 200 571
+0:0:0:0:0:0:0:1 - - [24/Nov/2024:20:33:30 +0530] "GET /MyTestServlate/updateProd?pid=5&pname=carrot&qty=11&price=139.9&date=01-02-2025&cid=103&btn=update HTTP/1.1" 500 1487
+0:0:0:0:0:0:0:1 - - [24/Nov/2024:20:33:55 +0530] "GET /MyTestServlate/updateProd?pid=5&pname=carrot&qty=11&price=139.9&date=2025-01-02&cid=103&btn=update HTTP/1.1" 200 1134
